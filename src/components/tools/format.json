@@ -1,0 +1,26 @@
+{
+    "_id": {
+      "$oid": "660429e1363437d51cd21499"
+    },
+    "users": {
+      "status": true,
+      "email": "denzeltchaptche@gmail.com",
+      "profile": "something.png",
+      "userName": "Eric",
+      "lang": "EN",
+      "version": "1.0.1",
+      "_id": {
+        "$oid": "660429e1363437d51cd21498"
+      },
+      "userID": "MCG4hPc_r-AUSTz9h04zBbGm",
+      "sessionID": "2z-HJRk_yT79EQ2lecKyAP7r"
+    },
+    "uID": "adcVbNpgll1bFrvvpgRF3_p5",
+    "createdAt": {
+      "$date": "2024-03-27T14:14:57.811Z"
+    },
+    "updatedAt": {
+      "$date": "2024-03-27T14:14:57.811Z"
+    },
+    "__v": 0
+  }

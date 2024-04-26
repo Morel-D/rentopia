@@ -1,0 +1,92 @@
+{
+    "Header": "HEADER ...............................................................",
+    "title1": "Properties",
+    "title2": "Activities",
+    "title3": "Services",
+    "title4": "Pricing",
+    "title5": "Solutions",
+
+    "SignInTitle": "Sign In",
+
+    "headerEn": "English (EN)",
+    "headerFr": "French (FR)",
+
+
+
+    "Home Page" : "HOME PAGE ...........................................................",
+
+
+    "homeFirstSectionTitle1" : "Trusted guide",
+    "homeFirstSectionTitle2" : "We're here to be your trusted guide in discovering your dream property",
+    "homeFirstSectionContent": "Simplify the process of identification and acquisition of your ideal property",
+    "homeFirstSectionInputPlaceholder" : "Enter a city name",
+    "homeFirstSectionbtn" : "Search",
+
+    "homeSecondSectionTitle1" : "Efficiency",
+    "homeSecondSectionTitle2" : "Reduce the amount of time and effort required to find a new property",
+    "homeSecondSectionContent1" : "Are you tired of constantly moving around, searching for a place to live or start your business? We have the perfect solution for you! With our convenient 3-in-1 platform, you can effortlessly",
+    "homeSecondSectionContent2" : "sell your property",
+    "homeSecondSectionContent3" : "efficiently",
+    "homeSecondSectionContent4" : "manage rentals,",
+    "homeSecondSectionContent5" : "and ",
+    "homeSecondSectionContent6" : "browse your dream properties, ",
+    "homeSecondSectionContent7" : "all from the comfort of your own home.",
+
+    "homeSecondSectionCard1" : "Time-saving",
+    "homeSecondSectionCard2" : "Wide selection",
+    "homeSecondSectionCard3" : "Streamlined process",
+
+    "homeThirdSectionTitle1" : "Fulfillment",
+    "homeThirdSectionTitle2" : "Your satisfaction is at the core of our motivation",
+    "homeThirdSectionContent1" : "Are you considering acquiring a new residence? Exploring the possibility of selling your shop or renting out your apartments ?",
+    "homeThirdSectionContent2" : "Rest assured, we are here to facilitate the fulfillment of your objectives effortlessly.",
+    "homeThirdSectionCardTitle1" : "Buy a property",
+    "homeThirdSectionCardContent1" : "Discover your perfect haven with a captivating photo journey and an extensive collection of listings, encompassing unique treasures that cannot be found elsewhere",
+    "homeThirdSectionCardbtn1" : "Find property",
+    "homeThirdSectionCardTitle2" : "Rent a property",
+    "homeThirdSectionCardContent2" : "Embark on a seamless online journey - from browsing the extensive rental network to effortlessly submitting your application for the perfect living space.",
+    "homeThirdSectionCardbtn2" : "Find rentals",
+    "homeThirdSectionCardTitle3" : "Sell a property",
+    "homeThirdSectionCardContent3" : "Rest assured, no matter the path you select to sell your home, our dedicated team is here to offer guidance and support for a truly successful and rewarding sale.",
+    "homeThirdSectionCardbtn3" : "Sell Property",
+
+
+
+
+    "Service Page" : "SERVICE PAGE ...........................................................",
+
+
+    "serviceFirstSectionTitle1" : "Our services",
+    "serviceFirstSectionTitle2" :  "Revolutionize Your Properties",
+    "serviceFirstSectionContent": "Explore a myriad of functionalities designed to elevate your listings to new heights, streamline your processes, and amplify your success.",
+
+
+    "serviceSecondSectionCardTitle1": "Property Search",
+    "serviceSecondSectionCardContext1": "Visitors can easily search and browse through a list of available properties based on their preferences like location, price range, property type and more.",
+
+    "serviceSecondSectionCardTitle2": "Detailed Property Listings",
+    "serviceSecondSectionCardContext2": "Each property listing provides comprehensive details including photos, descriptions, amenities, location maps, pricing, and contact information.",
+
+    "serviceSecondSectionCardTitle3": "Advanced Filters",
+    "serviceSecondSectionCardContext3": "Visitors can use advanced filters to narrow down their search results, such as filtering by specific amenities, property features, or even keywords.",
+
+    "serviceSecondSectionCardTitle4": "Saved Searches",
+    "serviceSecondSectionCardContext4": "Visitors can save their favorite searches and receive notifications when new properties matching their criteria are listed.",
+
+    "serviceSecondSectionCardTitle5": "Mobile Accessibility",
+    "serviceSecondSectionCardContext5": "The solution is mobile-friendly, allowing clients to browse properties and make inquiries on the go using their smartphones or tablets.",
+
+    "serviceSecondSectionCardTitle6": "Property Management Dashboard",
+    "serviceSecondSectionCardContext6": "Landlords/agents have access to a centralized dashboard where they can easily manage their property listings, including adding, editing, or removing listings as needed.",
+
+    "serviceSecondSectionCardTitle7": "Notification Alerts",
+    "serviceSecondSectionCardContext7": "Landlords/agents receive instant notifications for new inquiries, viewing requests, or other relevant updates, ensuring timely responses and proactive engagement with clients."
+
+
+
+
+
+
+
+}
+

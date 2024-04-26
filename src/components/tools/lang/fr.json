@@ -1,0 +1,83 @@
+{
+    "page": "HEADER ...............................................................",
+    "title1": "Propriétés",
+    "title2": "Activités",
+    "title3": "Services",
+    "title4": "Tarifs",
+    "title5": "Nos solutions",
+
+    "SignInTitle": "S'identifier",
+
+    "headerEn": "Anglais (EN)",
+    "headerFr": "Français (FR)",
+
+
+    "Page" : "HOME PAGE ...........................................................",
+
+
+    "homeFirstSectionTitle1" : "Le guide de confiance",
+    "homeFirstSectionTitle2" : "Nous sommes là pour être votre guide de confiance dans la découverte de la propriété de vos rêves.",
+    "homeFirstSectionContent": "Simplifier le processus d'identification et d'acquisition de votre propriété idéale",
+    "homeFirstSectionInputPlaceholder" : "Saisir le nom d'une ville",
+    "homeFirstSectionbtn" : "Recherche",
+
+    "homeSecondSectionTitle1" : "Efficience",
+    "homeSecondSectionTitle2" : "Réduire le temps et les efforts nécessaires à la recherche d'un nouveau logement",
+    "homeSecondSectionContent1" : "Vous en avez assez de chercher sans résultat un logement ou d'une entreprise ? Nous avons la solution idéale pour vous ! Grâce à notre plateforme pratique 3 en 1, vous pouvez sans effort",
+    "homeSecondSectionContent2" : "vendre votre bien",
+    "homeSecondSectionContent3" : "efficacement",
+    "homeSecondSectionContent4" : "gérer les locations,",
+    "homeSecondSectionContent5" : "et ",
+    "homeSecondSectionContent6" : "parcourez les propriétés de vos rêves, ",
+    "homeSecondSectionContent7" : "le tout dans le confort de votre propre maison.",
+
+    "homeSecondSectionCard1" : "Gain de temps",
+    "homeSecondSectionCard2" : "Vaste choix",
+    "homeSecondSectionCard3" : "Processus simplifié",
+
+    "homeThirdSectionTitle1" : "Exécution",
+    "homeThirdSectionTitle2" : "Votre satisfaction est au cœur de notre motivation",
+    "homeThirdSectionContent1" : "Vous envisagez d'acquérir une nouvelle résidence ? Vous envisagez de vendre votre magasin ou de louer vos appartements ?",
+    "homeThirdSectionContent2" : "Rassurez-vous, nous sommes là pour faciliter la réalisation de vos objectifs en toute simplicité.",
+    "homeThirdSectionCardTitle1" : "Acheter un bien",
+    "homeThirdSectionCardContent1" : "Découvrez votre havre de paix grâce à un voyage photographique captivant et à une vaste collection d'annonces, comprenant des trésors uniques que l'on ne trouve nulle part ailleurs.",
+    "homeThirdSectionCardbtn1" : "Trouver un bien",
+    "homeThirdSectionCardTitle2" : "Louer un bien",
+    "homeThirdSectionCardContent2" : "Embarquez pour un voyage en ligne transparent - de la navigation dans le vaste réseau de location à la soumission sans effort de votre demande pour l'espace de vie parfait.",
+    "homeThirdSectionCardbtn2" : "Trouver une location",
+    "homeThirdSectionCardTitle3" : "Vendre un bien",
+    "homeThirdSectionCardContent3" : "Soyez assuré que, quelle que soit la voie que vous choisissez pour vendre votre maison, notre équipe dévouée est là pour vous offrir des conseils et un soutien pour une vente vraiment réussie et gratifiante.",
+    "homeThirdSectionCardbtn3" : "Vendre un bien",
+    
+
+
+
+    "Service Page" : "SERVICE PAGE ...........................................................",
+
+
+    "serviceFirstSectionTitle1" : "Nos services",
+    "serviceFirstSectionTitle2" : "Révolutionnez vos propriétés",
+    "serviceFirstSectionContent": "Explorez une multitude de fonctionnalités conçues pour élever vos annonces à de nouveaux sommets, rationaliser vos processus et amplifier votre succès.",
+
+
+    "serviceSecondSectionCardTitle1": "Recherche de propriétés",
+    "serviceSecondSectionCardContext1": "Les visiteurs peuvent facilement rechercher et parcourir une liste de propriétés disponibles en fonction de leurs préférences telles que la localisation, la gamme de prix, le type de propriété et bien plus encore.",
+
+    "serviceSecondSectionCardTitle2": "Liste de propriétés détaillée",
+    "serviceSecondSectionCardContext2": "Chaque fiche descriptive fournit des détails complets, notamment des photos, des descriptions, des équipements, des cartes de localisation, des prix et des informations de contact.",
+
+    "serviceSecondSectionCardTitle3": "Filtres avancés",
+    "serviceSecondSectionCardContext3": "Les visiteurs peuvent utiliser des filtres avancés pour affiner les résultats de leur recherche, par exemple en fonction d'équipements spécifiques, de caractéristiques du bien ou même de mots-clés.",
+
+    "serviceSecondSectionCardTitle4": "Recherches sauvegardées",
+    "serviceSecondSectionCardContext4": "Les visiteurs peuvent enregistrer leurs recherches favorites et recevoir des notifications lorsque de nouveaux biens correspondant à leurs critères sont répertoriés.",
+
+    "serviceSecondSectionCardTitle5": "Accessibilité mobile",
+    "serviceSecondSectionCardContext5": "La solution est adaptée aux mobiles, ce qui permet aux clients de parcourir les biens et de faire des demandes en déplacement à l'aide de leur smartphone ou de leur tablette.",
+
+    "serviceSecondSectionCardTitle6": "Tableau de bord de la gestion immobilière",
+    "serviceSecondSectionCardContext6": "Les propriétaires/agents ont accès à un tableau de bord centralisé où ils peuvent facilement gérer leurs annonces immobilières, y compris l'ajout, la modification ou la suppression d'annonces selon les besoins.",
+
+    "serviceSecondSectionCardTitle7": "Notification d'alertes",
+    "serviceSecondSectionCardContext7": "Les propriétaires/agents reçoivent des notifications instantanées pour les nouvelles demandes, les demandes de visite ou d'autres mises à jour pertinentes, ce qui garantit des réponses rapides et un engagement proactif avec les clients."
+  }
