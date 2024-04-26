@@ -599,13 +599,12 @@ body {
     border-radius: 40px;
   }
 
-  .partten-bg
+  /* .partten-bg
 {
   background-image: url("../src/assets/IntoPath.png");
   background-size: contain;
   background-repeat: no-repeat;
-  /* background-position: -100px -60px; */
-}
+} */
 
 }
 
@@ -686,13 +685,12 @@ body {
 
 @media (max-width: 450px) {
 
-  .partten-bg
+  /* .partten-bg
 {
-  background-image: url("../src/assets/IntoPaths.png");
+  background-image: url("../src//assets/IntoPath.png");
   background-size: contain;
   background-repeat: no-repeat;
-  /* background-position: -100px -60px; */
-}
+} */
 
 .links
 {
