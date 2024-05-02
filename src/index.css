@@ -139,11 +139,6 @@ body {
   cursor: pointer;
 }
 
-#col-auth {
-  background-image: url("../../client/src/assets/IntoPath.png");
-  background-size: contain;
-}
-
 .badge {
   background-color: #C8D8E4;
   border-style: solid;
@@ -653,12 +648,6 @@ body
     border-radius: 40px;
   }
 
-  .partten-bg
-{
-  background-image: url("../src/assets/IntoPath.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
 }
 
