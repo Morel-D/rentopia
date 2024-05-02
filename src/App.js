@@ -59,20 +59,20 @@ function App() {
             <div className="body">
                 <Routes>
                   <Route path="/" element={<Home translation={translation} />}/>
-                  <Route path="/about" element={<About />} />
-                  <Route path= "/properties" element={<Properties />} />
-                  <Route path ="/activity" element={<Activity />} />
-                  <Route path="/add" element={<Rent />} />
+                  <Route path="/about" element={<About translation={translation} />} />
+                  <Route path= "/properties" element={<Properties translation={translation} />} />
+                  <Route path ="/activity" element={<Activity translation={translation} />} />
+                  <Route path="/add" element={<Rent translation={translation} />} />
                   <Route path="/services" element={<Services translation={translation} />} />
                   <Route path="/pricing" element={<Pricing />} />
-                  <Route path="/structure" element={<Structure />} />
+                  <Route path="/structure" element={<Structure translation={translation} />} />
                 </Routes>
             </div>
 
-            <div className={endpoint === "/signup" || endpoint === "/choose" ? "d-none" : "footer"}> <Footer /> </div>
+            <div className={endpoint === "/signup" || endpoint === "/choose" ? "d-none" : "footer"}> <Footer translation={translation} /> </div>
 
             <Routes>
-              <Route path="/signup" element={<Auth page={page} subPage={subPage} routeToLogin={routeToLogin} routetoSignIn={routetoSignIn} />}/>
+              <Route path="/signup" element={<Auth page={page} subPage={subPage} routeToLogin={routeToLogin} routetoSignIn={routetoSignIn} translation={translation} />}/>
               {/* <Route path="/choose" element={<Choose />}/> */}
             </Routes>
       </div>
@@ -80,7 +80,7 @@ function App() {
       </Fragment>
     ) : (
       <div>
-        <NotFound />
+        <NotFound translation={translation} />
       </div>
     )}
 

@@ -1,6 +1,5 @@
 import { colors } from "../../tools/colors";
 import serviceBg from "../../../assets/City.png";
-import info from "../../../assets/icon/info_pr.png";
 import { serviceSection } from "../../json/servicePage";
 import AOS from "aos";
 import 'aos/dist/aos.css';
@@ -16,19 +15,21 @@ const Services = ({translation}) => {
 
     return ( 
         <section className="">
-            <section className="container-fluid"  style={{ backgroundColor: `${colors.primaryColor}` }}>
-                <div className="row container px-4 mx-1">
-                    <div className="col col-6 mx-5 px-4 mt-5">
-                        <p className="text-highline-white">{translation.serviceFirstSectionTitle1}</p>
-                        <h1 className="text-white"  data-aos="fade-left"><b>{translation.serviceFirstSectionTitle2}</b></h1>
-                        <p className="text-white" data-aos="fade-up">{translation.serviceFirstSectionContent}</p>
+            <div   style={{ backgroundColor: `${colors.primaryColor}`}}>
+                <section className="container">
+                    <div className=" row">
+                        <div className="col col-12 col-lg-6 mt-5">
+                            <p className="text-highline-white">{translation.serviceFirstSectionTitle1}</p>
+                            <h1 className="text-white"  data-aos="fade-left"><b>{translation.serviceFirstSectionTitle2}</b></h1>
+                            <p className="text-white" data-aos="fade-up">{translation.serviceFirstSectionContent}</p>
+                        </div>
+                        <div className="col">
+                            <br /><br />
+                            <img src={serviceBg} data-aos="fade-in" className="img-fluid mt-5 mx-lg-4" />
+                        </div>
                     </div>
-                    <div className="col">
-                        <br /><br />
-                        <img src={serviceBg} data-aos="fade-in" className="img-fluid mt-5 mx-4" />
-                    </div>
-                </div>
-            </section>
+                </section>
+            </div>
 
             <section className="container py-5">
                 <div className="row row-cols-1 row-cols-md-3 g-3">
@@ -46,12 +47,6 @@ const Services = ({translation}) => {
                     }
                 </div>
             </section>
-            <div className="mx-5 col-4" id="notification">
-                <div class="alert alert-green alert-dismissible fade show" role="alert" >
-                    <img src={info} className="img-fluid col-1 px-1" /><strong> Info</strong> This page is not responsive yet !! (Web view only)
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                </div>
-            </div>
         </section>
      );
 }

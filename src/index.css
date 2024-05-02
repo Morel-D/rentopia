@@ -13,6 +13,12 @@ body {
   color:  #808080;
 }
 
+::selection
+{
+  background-color: #245b6b;
+  color: white;
+}
+
 #notification
 {
   position: fixed;
@@ -133,6 +139,10 @@ body {
   cursor: pointer;
 }
 
+#col-auth {
+  background-image: url("../../client/src/assets/IntoPath.png");
+  background-size: contain;
+}
 
 .badge {
   background-color: #C8D8E4;
@@ -349,10 +359,23 @@ body {
 
 @media (max-width: 750px)
 {
+
+body
+{
+  font-size: 12px;
+  line-height: 1.5;
+}
+
   .logoWiget
 {
   width: auto;
   height: 50px;
+}
+
+#left-divider
+{
+  border-style: none;
+
 }
 
 .text-highline{
@@ -574,8 +597,22 @@ body {
 }
 
 
+#arrowBtn
+{
+  background-color: transparent;
+  border-style: none
+}
 
+/* #arrowBtn:hover
+{
+  background-color: rgb(235, 235, 235);
+  border-style: none
+} */
 
+.dropdowm {
+  transition: height 0.3s ease-in-out;
+  overflow: hidden;
+}
 
 @media (max-width: 900px) {
   #bg-partten {
@@ -583,9 +620,30 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
   }
+  #notification
+  {
+    position: fixed;
+    bottom: 20px;
+    left: 48%;
+    transform: translateX(-50%);
+    z-index: 999; 
+  }
+
+
 }
 
 @media (max-width: 750px) {
+
+
+
+  #notification
+  {
+    position: fixed;
+    bottom: 20px;
+    left: 48%;
+    transform: translateX(-50%);
+    z-index: 999; 
+  }
 
   .guyImg {
     width: auto;
@@ -595,8 +653,32 @@ body {
     border-radius: 40px;
   }
 
+  .partten-bg
+{
+  background-image: url("../src/assets/IntoPath.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 }
+
+
+#visitorsBg
+{
+  background-image: url("../src/assets/service.jpg");
+  width: auto;
+  height: 550px;
+  background-size: cover;
+}
+
+#agnetBg
+{
+  background-image: url("../src/assets/solution1.jpg");
+  width: auto;
+  height: 550px;
+  background-size: cover;
+}
+
 
 
 /***************************** navbar custom ***************************/
@@ -675,6 +757,90 @@ body {
 
 @media (max-width: 450px) {
 
+  #propertyBox
+  {
+    height: "150px"
+  }
+
+  #notFound
+  {
+    padding-top: 200px;
+  }
+
+
+  .saleImg {
+    width: auto;
+    height: 300px;
+  }
+
+  /* .centered-div {
+
+     display: block;
+     padding-top: 50px;
+  } */
+
+  .findImg 
+{
+  width: auto;
+  height: 200px;
+}
+
+  #visitorsBg
+{
+  background-image: url("../src/assets/service.jpg");
+  width: auto;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#agnetBg
+{
+  background-image: url("../src/assets/solution1.jpg");
+  width: auto;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+  #primary-btn 
+{
+  background-color: #2B6777;
+  color: white;
+  border-radius: 50px;
+  border-color: transparent;
+  flex: 1;
+  width: 150px;
+}
+
+#secondary-btn 
+{
+  background-color: #C8D8E4;
+  color: white;
+  border-radius: 50px;
+  border-color: transparent;
+  flex: 1;
+  width: 150px;
+}
+
+#notification
+{
+  position: fixed;
+  bottom: 20px;
+  left: 38%;
+  transform: translateX(-50%);
+  z-index: 999; 
+}
+
+  .partten-bg
+{
+  background-image: url("../src/assets/IntoPaths.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-position: -100px -60px; */
+}
 
 .links
 {

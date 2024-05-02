@@ -7,22 +7,126 @@ import time from "../../../assets/time.png";
 import choice from "../../../assets/choice.png";
 import stream from "../../../assets/stream.png";
 
+import residence from "../../../assets/residence.png";
+import commercial from "../../../assets/commercial.png";
+import purpose from "../../../assets/purpose.png";
+import luxury from "../../../assets/luxury.png";
+import industry from "../../../assets/industry.png";
 
 
-import { LoadingModal, ModalWidget } from "../../widget/modals";
+
+import downArrow from "../../../assets/icon/down_arrow.png";
+import upArrow from "../../../assets/icon/up_arrow.png";
+
+
+
 import { LinkPrimaryButton, PrimaryButton } from "../../widget/button";
-import { searchProperty } from "../modules/modalContent";
 import { GroupInput } from "../../widget/textfeild";
-import { useEffect, useRef } from "react";
+import { useEffect, useState } from "react";
 import AOS from "aos";
 import 'aos/dist/aos.css';
-import { Link } from "react-router-dom";
 
 const Home = ({translation}) => {
 
+    const [drop, setDrop] = useState({});
+    const [boxHeight, setBoxHeight] = useState(window.innerWidth < 450 ? "10px" : "250px")
+
     useEffect(() => {
         AOS.init({duration: 2000});
-    })
+
+        const handleResize = () => {
+            setBoxHeight(window.innerWidth < 450 ? "10px" : "250px");
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, [])
+
+    const properties =
+    [
+        {
+            id: 1,
+            image: residence,
+            title: translation.homeResidenceProperties,
+            types: 
+            [
+                 translation.homeResidencePropertiesOption1,
+                 translation.homeResidencePropertiesOption2,
+                 translation.homeResidencePropertiesOption3,
+                 translation.homeResidencePropertiesOption4,
+                 translation.homeResidencePropertiesOption5,
+                 translation.homeResidencePropertiesOption6
+
+            ]
+        },
+        {
+            id: 2,
+            image: commercial,
+            title: translation.homeCommercialProperties,
+            types: 
+            [
+               translation.homeCommercialPropertiesOption1, 
+               translation.homeCommercialPropertiesOption2, 
+               translation.homeCommercialPropertiesOption3, 
+               translation.homeCommercialPropertiesOption4, 
+               translation.homeCommercialPropertiesOption5, 
+               translation.homeCommercialPropertiesOption6, 
+               translation.homeCommercialPropertiesOption7, 
+
+            ]
+        },
+        {
+            id: 3,
+            image: purpose,
+            title: translation.homeSpecialProperties,
+            types: 
+            [
+                translation.homeSpecialPropertiesOption1,
+                translation.homeSpecialPropertiesOption2,
+                translation.homeSpecialPropertiesOption3,
+                translation.homeSpecialPropertiesOption4,
+                translation.homeSpecialPropertiesOption5,
+                translation.homeSpecialPropertiesOption6,
+
+            ]
+        },
+        {
+            id: 4,
+            image: luxury,
+            title: translation.homeLuxuryProperties,
+            types: 
+            [
+                translation.homeLuxuryPropertiesOption1,
+                translation.homeLuxuryPropertiesOption2,
+                translation.homeLuxuryPropertiesOption3,
+                translation.homeLuxuryPropertiesOption4,
+
+            ]
+        },
+        {
+            id: 5,
+            image: industry,
+            title: translation.homeIndustrialProperties,
+            types: 
+            [
+                translation.homeIndustrialPropertiesOption1,
+                translation.homeIndustrialPropertiesOption2,
+                translation.homeIndustrialPropertiesOption3,
+                translation.homeIndustrialPropertiesOption4,
+            ]
+        }
+    ]
+
+    const handleDropDown = (propertyId) =>
+    {
+        setDrop(prevDrop => ({
+            ...prevDrop,
+            [propertyId] : !prevDrop[propertyId]
+        }));
+    }
 
     return ( 
         <section className="">
@@ -37,7 +141,7 @@ const Home = ({translation}) => {
                             <br className="br" />
                             <br className="br" />
 
-                            <p className="text-highline">{translation.homeFirstSectionTitle1}</p>
+                            <p className="text-highline text-start">{translation.homeFirstSectionTitle1}</p>
                             <div className="conatiner-fluid rect-intro"><h1 className="text-dark mx-4"  data-aos="fade-left"><b>{translation.homeFirstSectionTitle2}</b></h1></div>
                             <br />
                            <p  data-aos="fade-up">{translation.homeFirstSectionContent}</p>
@@ -54,6 +158,35 @@ const Home = ({translation}) => {
                 </div>
             </div>
                 {/* body part  */}
+
+            <div className="container-fluid py-5 bg-white">
+                <div className="container">
+                    <p className="text-highline text-start">Properties</p>
+                    <div className="conatiner-fluid mb-5"><h1 className="text-dark"  data-aos="fade-left"><b>Identify the properties available</b></h1></div>
+                    <div className="row row-cols-lg-5 row-cols-2" data-aos="fade-up">
+                         {
+                            properties.map((property) => (
+                                <div className="col py-2" key={property.id}>
+                                    <div class="shadow-sm p-3 bg-body rounded" id="propertyBox" style={drop[property.id] ?  null : {height: boxHeight}}>
+                                        <img src={property.image} className="img-fluid px-lg-5 px-3 mt-lg-0 mt-3" />
+                                        <p className="text-dark text-center fw-bold">{property.title}</p>
+                                        <div className={drop[property.id] ? "dropdowm text-center" : "dropdowm d-none text-center" }>
+                                            {property.types.map((type) =>
+                                        (
+                                            <p><a href="#" className="text-secondary" style={{textDecoration: "none"}}>{type}</a></p>
+                                        ))}
+
+                                        </div>
+                                        <div className="text-center">
+                                            <button id="arrowBtn" onClick={() => handleDropDown(property.id)}><img src={drop[property.id] ?  upArrow : downArrow} className="img-fluid" style={{height: "auto", width: "40px"}} /></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))
+                         }
+                    </div>
+                </div>
+            </div>
 
             <div className="conatianer-fluid py-5 bg-white">
                 <div className="container">

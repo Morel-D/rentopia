@@ -8,10 +8,9 @@ import SignUp from "./signup";
 import Login from "./login";
 import AOS from "aos";
 import 'aos/dist/aos.css';
-import info from "../../../assets/icon/info_pr.png";
 
 
-const Auth = ({page, subPage, routeToLogin, routetoSignIn}) => {
+const Auth = ({page, subPage, routeToLogin, routetoSignIn, translation}) => {
     
     const [accountRole, setAccoutRole] = useState("");
 
@@ -40,37 +39,37 @@ const Auth = ({page, subPage, routeToLogin, routetoSignIn}) => {
            {page == 1 ? (
             <div className="container">
             <div className="text-center py-2">
-                <h1 className="text-highline">Sing Up to Rentopia</h1>
+                <h1 className="text-highline mt-lg-0 mt-5">{translation.authTitle}</h1>
             </div>
             <div className=" p-3 text-center">
                 <div className="row">
-                    <div className="col py-3" id="left-divider">
+                    <div className="col col-lg-6 col-12 py-3" id="left-divider">
                         <img src={client} className="img-fluid findImg" />
-                        <h3 className="text-highline">As a client</h3>
-                        <p className="px-5 text-secondary">Find your dream home effortlessly. Sign up now to browse our exclusive real estate listings !</p>
-                        <LinkPrimaryButton children="Let's Go" style={{textDecoration : "none"}} onclick={moveToClientSignIn}/>
+                        <h3 className="text-highline">{translation.authClientTitle}</h3>
+                        <p className="px-5 text-secondary">{translation.authClientDescription}</p>
+                        <LinkPrimaryButton children={translation.authBtn} style={{textDecoration : "none"}} onclick={moveToClientSignIn}/>
                     </div>
                     <div className="col py-3">
                         <img src={owner} className="img-fluid findImg" />
-                        <h3 className="text-highline">As an owner</h3>
-                        <p className="px-5 text-secondary">Unlock the potential of your property. Sign up now to showcase your listings effectively!</p>
-                        <LinkPrimaryButton children="Let's Go" style={{textDecoration : "none"}} onclick={moveToOwnerSigIn}/>
+                        <h3 className="text-highline">{translation.authOwnerTitle}</h3>
+                        <p className="px-5 text-secondary">{translation.authOwnerDescription}</p>
+                        <LinkPrimaryButton children={translation.authBtn} style={{textDecoration : "none"}} onclick={moveToOwnerSigIn}/>
 
                     </div>
                 </div>
             </div>
             <div className="text-center py-1">
-                <small className="">Already have an account ? <br /><a href="" className="link-highline" onClick={routeToLogin}> Login</a></small>
+                <small className="">{translation.authLogNotice}<br /><a href="" className="link-highline" onClick={routeToLogin}>{translation.authLogbtn}</a></small>
             </div>
         </div>
            ) : (
-            <div className="centered-div container px-5">
-                <div className="container px-5 row">
-                    <a href="/" className="mx-5">
+            <div className="centered-div container px-lg-5 px-1">
+                <div className="container px-lg-5 px-0 row">
+                    <a href="/" className="mx-lg-5 mx-2">
                         <img src={logo} className="img-fluid logo-img"/>
                     </a>
-                    <div className="col-12 col-lg mx-4">
-                        {subPage === 1 ? (<SignUp routeToLogin={routeToLogin} accountRole={accountRole} />) : (<Login routetoSignIn={routetoSignIn} />)}
+                    <div className="col-12 col-lg mx-lg-4 mx-0">
+                        {subPage === 1 ? (<SignUp routeToLogin={routeToLogin} accountRole={accountRole} translation={translation} />) : (<Login routetoSignIn={routetoSignIn} translation={translation} />)}
                     </div>
 
                     <div className="col d-none d-lg-block">
@@ -83,12 +82,6 @@ const Auth = ({page, subPage, routeToLogin, routetoSignIn}) => {
                 </div>
             </div>
            )}
-            <div className="mx-5 col-4" id="notification">
-                <div class="alert alert-green alert-dismissible fade show" role="alert" >
-                    <img src={info} className="img-fluid col-1 px-1" /><strong> Info</strong> This page is not responsive yet !! (Web view only)
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                </div>
-            </div>
         </section>
      );
 }

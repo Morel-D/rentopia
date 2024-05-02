@@ -15,7 +15,7 @@ import axios from "axios";
 import { UploadProfile } from "../../widget/button";
 
 
-const SignUp = ({routeToLogin, accountRole}) => {
+const SignUp = ({routeToLogin, accountRole, translation}) => {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const [email, setEmail] = useState("");
   const [userName, setUserName] = useState("");
@@ -216,27 +216,29 @@ const handleEmailInput = (e) =>
             <div className="" >
                   <div className="" >
                     <div className="container title py-5">
-                      <h2 className="text-highline">Hey there !</h2>
-                      <p>Ease into your dream property with our solution.</p>
-                      <div className="col-9">
+                      <h2 className="text-highline text-start">{translation.signUpTitle}</h2>
+                      <p>{translation.signUpDescription}</p>
+                      <div className="col-lg-9 col-12 text-center text-lg-start py-lg-0 py-2">
                         <button className="btn py-2 google-btn">
                           <img src={google} className="img-fluid google-img" />
-                          <label className="">Signin with Google</label>
+                          <label className="">{translation.signUpGoogleBtn}</label>
                         </button>
                       </div>
                         <div className="row">
                           <div className="col"><hr /></div>
-                          <div className="col col-1 text-center"><small>or</small></div>
+                          <div className="col col-1 text-center"><small>{translation.signUpOr}</small></div>
                           <div className="col"><hr /></div>
                         </div>
                       <form action="">
-                        <InputTextFeild type="email" placeholder="Enter your email" value={email} onChange={handleEmailInput} />
-                        <small className="text-highline"><img src={info} className="img-fluid mx-1" style={{ height: 'auto', width: '20px'}}/>A verification code will be send via this email</small>
+                        <br className="d-lg-none" />
+                        <InputTextFeild type="email" placeholder={translation.signUpInputextPlaceholder} value={email} onChange={handleEmailInput} />
+                        <br className="d-lg-none" />
+                        <small className="text-highline"><img src={info} className="img-fluid mx-1" style={{ height: 'auto', width: '20px'}}/>{translation.signUpInputextNotice}</small>
                         <div className="mt-2" >
                           <ConditionModalPrimaryBtn
                             dbTarget="sigInModal"
                             disabled={!emailRegex.test(email)}
-                            modalBtn="Verify"
+                            modalBtn={translation.signUpBtn}
                             onClick={switchModal === 1 ? handleSignIn : null}  
                             href={switchModal === 1 || switchModal === 2 ? "" : "/properties"}
                             modalContent={otpModal} 
@@ -254,7 +256,7 @@ const handleEmailInput = (e) =>
                         </div>
                       </form>
                         <div className="py-2">
-                          <small className="">Already have an account ? <a href="" className="link-highline" onClick={routeToLogin}> Login</a></small>
+                          <small className="">{translation.signUpDownNotice} <a href="" className="link-highline" onClick={routeToLogin}> {translation.signUpLogbtn}</a></small>
                         </div>
                     </div>
                 </div>

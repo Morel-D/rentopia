@@ -4,7 +4,7 @@ import insta from "../../../assets/icon/insta.png"
 import linkein from "../../../assets/icon/linke.png"
 import facebook from "../../../assets/icon/facebook.png"
 
-const Footer = () => {
+const Footer = ({translation}) => {
     return ( 
         <div className="container-fluid footer-bg">
             <div className="container py-5">
@@ -18,10 +18,10 @@ const Footer = () => {
 								{/* <div className="col col-2 text-start  mt-2"><h3 className="text-white">Rentopia</h3></div> */}
 							</div>
 						</a>
-                        <p className="mt-2 lightText">We prioritize digital accessibility, value feedback, and welcome accommodation requests. Contact us for assistance.</p>
+                        <p className="mt-2 lightText">{translation.footerFirstColonDescription}</p>
                         <hr className="text-white" />
                         <div className="row">
-                            <div className="col col-4"><OutLineWhiteButton className="text-white py-2 col-12">About us</OutLineWhiteButton></div>
+                            <div className="col col-4"><OutLineWhiteButton className="text-white py-2 col-12">{translation.footerFirstColonAbout}</OutLineWhiteButton></div>
                             <div className="col text-start d-flex gap-1">
                                 <a className="btn"><img src={insta} className="img-fluid social-img" /></a>
                                 <a className="btn"><img src={linkein} className="img-fluid social-img" /></a>
@@ -30,30 +30,30 @@ const Footer = () => {
                         </div>
                           
                     </div>
-                    <div className="col text-center text-lg-start py-2">
-                        <h3 className="text-white mx-3">Find Property</h3>
+                    <div className="col text-start py-2">
+                        <h3 className="text-white mx-1">{translation.footerSecondSectionTitle}</h3>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a href="" className="text-secondary">Apartments</a></li>
-                            <li class="list-group-item"><a href="" className="text-secondary">Commercial building</a></li>
-                            <li class="list-group-item"><a href="" className="text-secondary">Single-family home</a></li>
-                            <li class="list-group-item"><a href="" className="text-secondary">Retail store</a></li>
+                            <li class="list-group-item"><a href="/" className="text-secondary">{translation.footerSecondSectionOption1}</a></li>
+                            <li class="list-group-item"><a href="/" className="text-secondary">{translation.footerSecondSectionOption2}</a></li>
+                            <li class="list-group-item"><a href="/" className="text-secondary">{translation.footerSecondSectionOption3}</a></li>
+                            <li class="list-group-item"><a href="/" className="text-secondary">{translation.footerSecondSectionOption4}</a></li>
                         </ul>
                     </div>
-                    <div className="col text-center text-lg-start py-2">
-                        <h3 className="text-white mx-3">Functionalities</h3>
+                    <div className="col  text-start py-2">
+                        <h3 className="text-white mx-3">{translation.footerThirdSectionTitle}</h3>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a href="" className="text-secondary">Buy a property</a></li>
-                            <li class="list-group-item"><a href="/rent" className="text-secondary">Rent a propery</a></li>
-                            <li class="list-group-item"><a href="" className="text-secondary">Sell a property</a></li>
+                            <li class="list-group-item"><a href="/" className="text-secondary">{translation.footerThirdSectionOption1}</a></li>
+                            <li class="list-group-item"><a href="/rent" className="text-secondary">{translation.footerThirdSectionOption2}</a></li>
+                            <li class="list-group-item"><a href="" className="text-secondary">{translation.footerThirdSectionOption3}</a></li>
                         </ul>
                     </div>
-                    <div className="col  text-center text-lg-start py-2">
-                        <h3 className="text-white mx-3">About Us</h3>
+                    <div className="col  text-start py-2">
+                        <h3 className="text-white mx-3">{translation.footerFourthSectionTitle}</h3>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a href="/about" className="text-secondary">Company Info</a></li>
-                            <li class="list-group-item"><a href="" className="text-secondary">Term of service</a></li>
-                            <li class="list-group-item"><a href="" className="text-secondary">Privacy Notice</a></li>
-                            <li class="list-group-item"><a href="" className="text-secondary">Blog</a></li>
+                            <li class="list-group-item"><a href="/about" className="text-secondary">{translation.footerFourthSectionOption1}</a></li>
+                            <li class="list-group-item"><a href="/" className="text-secondary">{translation.footerFourthSectionOption2}</a></li>
+                            <li class="list-group-item"><a href="/" className="text-secondary">{translation.footerFourthSectionOption3}</a></li>
+                            <li class="list-group-item"><a href="/" className="text-secondary">{translation.footerFourthSectionOption4}</a></li>
                         </ul>
                     </div>
                 </div>

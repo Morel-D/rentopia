@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import {motion} from "framer-motion";
 import { hoverBtn } from "../tools/animation";
 import '../tools/include';
@@ -55,7 +54,7 @@ const UploadImageButton = ({children, onChange}) =>
         <motion.label
         variants={hoverBtn} whileHover="hover"
         for="uploadFile" className="text-center py-2" id="primary-btn" style={{cursor: "pointer"}}>
-            Upload Image
+            {children}
         </motion.label>
         </div>
     );
@@ -80,7 +79,7 @@ const UploadImagesButton = ({children, onChange}) =>
         <motion.label
         variants={hoverBtn} whileHover="hover"
         for="uploadFiles" className="text-center py-2" id="primary-btn" style={{cursor: "pointer"}}>
-            Upload Image
+            {children}
         </motion.label>
         </div>
     );

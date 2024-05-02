@@ -1,12 +1,6 @@
-import relax from "../../../assets/relax.png";
-import logo from "../../../assets/icon/logo.png";
-import { useEffect, useState } from "react";
 import client from "../../../assets/client.png";
 import owner from "../../../assets/owner.png";
 import { LinkPrimaryButton } from "../../widget/button";
-import SignUp from "./signup";
-import Login from "./login";
-import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useNavigate } from "react-router-dom";
 

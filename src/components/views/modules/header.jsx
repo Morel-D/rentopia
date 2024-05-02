@@ -4,8 +4,6 @@ import logo2 from "../../../assets/icon/logo.png"
 import Translate from "../../../assets/icon/Translate.png";
 import UserImg from "../../../assets/icon/user.png";
 import 'aos/dist/aos.css';
-import { useNavigate } from "react-router-dom";
-import { useEffect, useState } from "react";
 import { colors } from "../../tools/colors";
 
 
@@ -54,7 +52,7 @@ const Header = ({setLanguage, translation, language}) => {
 								<li className={endpoint == "/properties" ? "nav-item links" : "nav-item"}><a href="/properties" className={endpoint == "/properties" ? "nav-link text-secondary text-center" : "nav-link text-dark text-center"}>{translation.title1}</a></li>
 								<li className={endpoint == "/activity" || endpoint == "/add"  ? "nav-item links" : "nav-item"}><a href="/activity" className={endpoint == "/activity"  || endpoint == "/add"  ? "nav-link text-secondary text-center" : "nav-link text-dark text-center"}>{translation.title2}</a></li>
 								<li className={endpoint == "/services" ? "nav-item links" : "nav-item"}><a href="/services" className={endpoint == "/services" ? "nav-link text-secondary text-center" : "nav-link text-dark text-center"}>{translation.title3}</a></li>
-								<li className={endpoint == "/pricing" ? "nav-item links" : "nav-item"}><a href="/pricing" className={endpoint == "/pricing"? "nav-link text-secondary text-center" : "nav-link text-dark text-center"}>{translation.title4}</a></li>
+								{/* <li className={endpoint == "/pricing" ? "nav-item links" : "nav-item"}><a href="/pricing" className={endpoint == "/pricing"? "nav-link text-secondary text-center" : "nav-link text-dark text-center"}>{translation.title4}</a></li> */}
 								<li className={endpoint == "/structure" ? "nav-item links" : "nav-item"}><a href="/structure" className={endpoint == "/structure" ? "nav-link text-secondary text-center" : "nav-link text-dark text-center"}>{translation.title5}</a></li>
 
 

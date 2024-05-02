@@ -2,61 +2,62 @@ import React from "react";
 
 //************************* Rent.jsx ************************************/
 
-const propertyType = [
-    {label: "Select property"},
-    {label: "Apartment"},
-    {label: "House"},
-    {label: " Office Space"},
-    {label: "Retail Space"},
-    {label: "Warehouse"},
-    {label: "Party Hall"},
-    {label: "Conference Room"},
-    {label: "Banquet Hall"},
-    {label: "Vacation Home"},
-    {label: "Cabin or Cottage"},
-    {label: "Parking Space"},
-    {label: "Storage Unit"},
-    {label: "Farmland"},
-    {label: "Student Apartment"},
-    {label: "Shared Housing"},
-    {label: "Assisted Living Apartment"},
-    {label: "Retirement Communitie"},
+const propertyType = ({translation}) => [
+    {label: translation.activityInputProperty1},
+    {label: translation.activityInputProperty2},
+    {label: translation.activityInputProperty3},
+    {label: translation.activityInputProperty4},
+    {label: translation.activityInputProperty5},
+    {label: translation.activityInputProperty6},
+    {label: translation.activityInputProperty7},
+    {label: translation.activityInputProperty8},
+    {label: translation.activityInputProperty9},
+    {label: translation.activityInputProperty10},
+    {label: translation.activityInputProperty11},
+    {label: translation.activityInputProperty12},
+    {label: translation.activityInputProperty13},
+    {label: translation.activityInputProperty14},
+    {label: translation.activityInputProperty15},
+    {label: translation.activityInputProperty16},
+    {label: translation.activityInputProperty17},
+    {label: translation.activityInputProperty18},
 ]
 
 
-const priceCondition = [
-    {label: "Per.."},
-    {label: "Minutes"},
-    {label: "Hour"},
-    {label: "Week"},
-    {label: "Month"},
-    {label: "Year"},
+const priceCondition = ({translation}) => [
+    {label: translation.activityInputPropertyVaryModalCondition1},
+    {label: translation.activityInputPropertyVaryModalCondition2},
+    {label: translation.activityInputPropertyVaryModalCondition3},
+    {label: translation.activityInputPropertyVaryModalCondition4},
+    {label: translation.activityInputPropertyVaryModalCondition5},
+    {label: translation.activityInputPropertyVaryModalCondition6},
 ]
 
-const leaseTime = [
+const leaseTime = ({translation}) => [
     {label: "...."},
-    {label: "Week"},
-    {label: "Month"},
-    {label: "Year"},
+    {label: translation.activityInputLeasesModalLeaseTime1},
+    {label: translation.activityInputLeasesModalLeaseTime2},
+    {label: translation.activityInputLeasesModalLeaseTime3},
 ]
 
-const propertyMain = [
-    {label: "Room(s)"},
-    {label: "Living Room"},
-    {label: "Kitchen"},
-    {label: "Dining Room"},
-    {label: "Bedroom(s)"},
-    {label: "Bedroom(s)"},
-    {label: "Bathroom(s)"},
-    {label: "Home Office/Study"},
-    {label: "Laundry Room"},
-    {label: "Home Gym"},
-    {label: "Playroom"},
-    {label: "Mudroom"},
-    {label: "Home Bar"},
-    {label: "Game Room"},
-    {label: "Pantry"},
-    {label: "Garage(2)"}
+const propertyMain = ({translation}) => [
+    {label: translation.activityTagInputRoom1},
+    {label: translation.activityTagInputRoom2},
+    {label: translation.activityTagInputRoom3},
+    {label: translation.activityTagInputRoom4},
+    {label: translation.activityTagInputRoom5},
+    {label: translation.activityTagInputRoom6},
+    {label: translation.activityTagInputRoom7},
+    {label: translation.activityTagInputRoom8},
+    {label: translation.activityTagInputRoom9},
+    {label: translation.activityTagInputRoom10},
+    {label: translation.activityTagInputRoom11},
+    {label: translation.activityTagInputRoom12},
+    {label: translation.activityTagInputRoom13},
+    {label: translation.activityTagInputRoom14},
+    {label: translation.activityTagInputRoom15},
+
+    
 ]
 
 export {propertyType, priceCondition, leaseTime, propertyMain}

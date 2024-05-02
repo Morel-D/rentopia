@@ -1,9 +1,6 @@
-import relax from "../../../assets/relax.png";
-import logo from "../../../assets/icon/logo.png";
 import google from "../../../assets/icon/Goog.png";
 import { InputTextFeild } from "../../widget/textfeild";
 import { ConditionModalPrimaryBtn} from "../../widget/modals";
-import info from "../../../assets/icon/info_dr.png";
 import server from "../../../assets/icon/server.png";
 import no_network from "../../../assets/icon/network.png";
 import errorImg from "../../../assets/icon/error.png";
@@ -15,7 +12,7 @@ import axios from "axios";
 
 
 import 'aos/dist/aos.css';
-const Login = ({routetoSignIn}) => {
+const Login = ({routetoSignIn, translation}) => {
 
 
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -78,27 +75,31 @@ const Login = ({routetoSignIn}) => {
     return ( 
         <div>
               <div className="container title py-5">
-                  <h2 className="text-highline">Welcome back !</h2>
-                  <p>Resume your research journey with ease using our solution.</p>
-                  <div className="col-9">
+                  <h2 className="text-highline text-start">{translation.LogInTitle}</h2>
+                  <p>{translation.LogInDescription}</p>
+                  <div className="col-lg-9 col-12 text-center text-lg-start py-lg-0 py-2">
                     <button className="btn py-2 google-btn">
                       <img src={google} className="img-fluid google-img" />
-                      Sign In with Google
+                      {translation.LogInGoogleBtn}
                     </button>
                   </div>
                     <div className="row">
                       <div className="col"><hr /></div>
-                      <div className="col col-1 text-center"><small>or</small></div>
+                      <div className="col col-1 text-center"><small>{translation.LogInOr}</small></div>
                       <div className="col"><hr /></div>
                     </div>
                   <form action="">
-                    <InputTextFeild type="email" placeholder="Enter your email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                  <br className="d-lg-none" />
+
+                    <InputTextFeild type="email" placeholder={translation.LogInInputextPlaceholder} value={email} onChange={(e) => setEmail(e.target.value)} />
+                    <br className="d-lg-none" />
+
                     {/* {errorMessage && (<small className="text-error"><img src={info} className="img-fluid mx-1" style={{ height: 'auto', width: '20px'}}/>{errorMessage === "INVALID_EMAIL" ? "Invalide email" : "Poor network. Please check your connection"}</small>)} */}
                     <div className="mt-2">
                     <ConditionModalPrimaryBtn
                             dbTarget="logInModal"
                             disabled={!emailRegex.test(email)}
-                            modalBtn="Login"
+                            modalBtn={translation.LogInBtn}
                             onClick={handleLogin}
                             modalContent={openModal} 
                             headerClass={loading == true ? "modal-header d-none" : "modal-header"} 
@@ -116,7 +117,7 @@ const Login = ({routetoSignIn}) => {
                     </div>
                   </form>
                     <div className="py-2">
-                        <small>Don't have an account ? <a href="" className="link-highline" onClick={routetoSignIn}> Sign In</a></small>
+                        <small>{translation.LogInDownNotice} <a href="" className="link-highline" onClick={routetoSignIn}> {translation.LogInSignUpbtn}</a></small>
                     </div>
                 </div>
         </div>

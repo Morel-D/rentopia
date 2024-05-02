@@ -1,4 +1,7 @@
 {
+
+    "lang": "EN",
+
     "Header": "HEADER ...............................................................",
     "title1": "Properties",
     "title2": "Activities",
@@ -21,6 +24,49 @@
     "homeFirstSectionContent": "Simplify the process of identification and acquisition of your ideal property",
     "homeFirstSectionInputPlaceholder" : "Enter a city name",
     "homeFirstSectionbtn" : "Search",
+
+    "homeResidenceProperties": "Resdential properties",
+    "homeResidencePropertiesOption1": "Single-family homes",
+    "homeResidencePropertiesOption2": "Condominiums",
+    "homeResidencePropertiesOption3": "Apartments",
+    "homeResidencePropertiesOption4": "Townhouses",
+    "homeResidencePropertiesOption5": "Duplexes",
+    "homeResidencePropertiesOption6": "Mobile homes",
+
+
+    "homeCommercialProperties": "Commercial properties",
+    "homeCommercialPropertiesOption1": "Office building",
+    "homeCommercialPropertiesOption2": "Retail stores",
+    "homeCommercialPropertiesOption3": "Warehouses",
+    "homeCommercialPropertiesOption4": "Industrial properties",
+    "homeCommercialPropertiesOption5": "Hotels",
+    "homeCommercialPropertiesOption6": "Restaurants",
+    "homeCommercialPropertiesOption7": "Mixed-use buildings",
+
+
+    "homeLuxuryProperties": "Luxury properties",
+    "homeLuxuryPropertiesOption1": "High-end homes",
+    "homeLuxuryPropertiesOption2": "Luxury condos",
+    "homeLuxuryPropertiesOption3": "Mansions",
+    "homeLuxuryPropertiesOption4": "Penthouse apartments",
+
+
+    "homeIndustrialProperties": "Industrial properties",
+    "homeIndustrialPropertiesOption1": "Manufacturing facilities",
+    "homeIndustrialPropertiesOption2": "Distribution centers",
+    "homeIndustrialPropertiesOption3": "Factories",
+    "homeIndustrialPropertiesOption4": "Industrial parks",
+    
+
+    "homeSpecialProperties": "Special Purpose Properties",
+    "homeSpecialPropertiesOption1": "Hospitals",
+    "homeSpecialPropertiesOption2": "Schools",
+    "homeSpecialPropertiesOption3": "Churches",
+    "homeSpecialPropertiesOption4": "Sports stadiums",
+    "homeSpecialPropertiesOption5": "Airports",
+    "homeSpecialPropertiesOption6": "Parking lots",
+
+
 
     "homeSecondSectionTitle1" : "Efficiency",
     "homeSecondSectionTitle2" : "Reduce the amount of time and effort required to find a new property",
@@ -49,6 +95,119 @@
     "homeThirdSectionCardTitle3" : "Sell a property",
     "homeThirdSectionCardContent3" : "Rest assured, no matter the path you select to sell your home, our dedicated team is here to offer guidance and support for a truly successful and rewarding sale.",
     "homeThirdSectionCardbtn3" : "Sell Property",
+
+
+    "Activity Page one" : "ACTIVITIES PAGE ONE..................................................",
+
+    "activityLeftSideTitle" : "Rent a property",
+    "activityLeftSideDescription" : "Whether you have an apartment or a party room available for rent, Rentopia is here to assist you in showcasing your property and attracting prospective tenants.",
+
+
+    "activityRightSideTitle" : "Sell a property",
+    "activityRightSideDescription" : "Rentopia simplifies selling property, attracting customers. Relax as our advanced algorithm handles the rest. Challenges ? We've got you covered.",
+    "activityActionBtn" : "Let's go",
+
+
+
+    "Activity Page two" : "ACTIVITIES PAGE TWO..................................................",
+    "activityTitle": "Fill in this form",
+    "actityDescription": "Your transparent and detailed listing contributes to a streamlined and efficient process for connecting with potential tenants",
+
+    "activityInputType1" : "Select type",
+    "activityInputType2" : "For Rent",
+    "activityInputType3" : "For Sale",
+    "activityInputTypeDecription" : "What is the puprose of this property ?",
+
+    "activityInfo1" : "Kindly provide the requested property information for a seamless rental process",
+    "activityInputProperty1" : "Select property",
+    "activityInputProperty2" : "Apartment",
+    "activityInputProperty3" : "House",
+    "activityInputProperty4" : "Office Space",
+    "activityInputProperty5" : "Retail Space",
+    "activityInputProperty6" : "Warehouse",
+    "activityInputProperty7" : "Party Hall",
+    "activityInputProperty8" : "Conference Room",
+    "activityInputProperty9" : "Banquet Hall",
+    "activityInputProperty10" : "Vacation Home",
+    "activityInputProperty11" : "Cabin or Cottage",
+    "activityInputProperty12" : "Parking Space",
+    "activityInputProperty13" : "Storage Unit",
+    "activityInputProperty14" : "Farmland",
+    "activityInputProperty15" : "Student Apartment",
+    "activityInputProperty16" : "Shared Housing",
+    "activityInputProperty17" : "Assisted Living Apartment",
+    "activityInputProperty18" : "Retirement Communitie",
+
+    "activityInputPropertyName" : "Property's name (if any)",
+    "activityInputPropertyDecription" : "Property description",
+    "activityInputPropertyAddress" : "What's the property's address ?",
+    "activityInputPropertyAddressDecription" : "Ex: city - reigon",
+    "activityInputPropertyPhone" : "Phone number",
+    "activityInputPropertyPhoneDecription" : "So that people can join you",
+    "activityInputPropertyPrice1" : "Property Price",
+    "activityInputPropertyVaryValue" : "Vary per..",
+    "activityInputPropertyVaryModalTitle" : "The price varies in rescpect to ?",
+    "activityInputPropertyVaryModalDecription" : "Ex: 12,000 CFA/ 3 weeks -- or -- 20,000 CFA/Month",
+    "activityInputPropertyVaryMoadlMin" : "Min price",
+    "activityInputPropertyVaryModalCondition1" : "Per..",
+    "activityInputPropertyVaryModalCondition2" : "Minutes",
+    "activityInputPropertyVaryModalCondition3" : "Hour",
+    "activityInputPropertyVaryModalCondition4" : "Week",
+    "activityInputPropertyVaryModalCondition5" : "Month",
+    "activityInputPropertyVaryModalCondition6" : "Year",
+    "activityInputPropertyVaryMoadlBtn" : "Apply",
+
+    "activityInputPriceType1" : "Price type",
+    "activityInputPriceType2" : "Fix",
+    "activityInputPriceType3" : "Negotiable",
+
+    "activityInputLeases" : "Term Leases",
+    "activityInputLeasesModalTitle": "Establishes a time period",
+    "activityInputLeasesModalSubtitle": "No need to fill out if there's no time period",
+    "activityInputLeasesModalButtonText": "Apply",
+    "activityInputLeasesModalLeaseTime1": "Week",
+    "activityInputLeasesModalLeaseTime2": "Month",
+    "activityInputLeasesModalLeaseTime3": "Year",
+    "activityInputLeasesModalPlaceholders": "number",
+    "activityInputLeasesDecription" : "Define the period of time in which a contracted lease is in place",
+
+    "activityInfo2": " Specify property rooms by filling in the information below.",
+    "activityTagDescription": "Specify main rooms and quantities for a detailed understanding of the property.",
+    "activityInputTagPlaceholder": "quantity",
+    "activityTagError": "Fill in both text feilds to proceed",
+    "activityTagInputRoom1":"Room(s)",
+    "activityTagInputRoom2":"Living Room",
+    "activityTagInputRoom3":"Kitchen",
+    "activityTagInputRoom4":"Dining Room",
+    "activityTagInputRoom5":"Bedroom(s)",
+    "activityTagInputRoom6":"Bathroom(s)",
+    "activityTagInputRoom7":"Home Office/Study",
+    "activityTagInputRoom8":"Laundry Room",
+    "activityTagInputRoom9":"Home Gym",
+    "activityTagInputRoom10":"Playroom",
+    "activityTagInputRoom11":"Mudroom",
+    "activityTagInputRoom12":"Home Bar",
+    "activityTagInputRoom13":"Game Room",
+    "activityTagInputRoom14":"Pantry",
+    "activityTagInputRoom15":"Garage(2)",
+    "activityTagstatus": "No Room added",
+
+    "activityAddRoomBtn": "Add room",
+
+
+    "activityInfo3" : "Maximize demand, upload property images for improved viewing and appreciation.",
+    "activityImageUploadBtn": "Upload Image",
+    "activityImagesUploadBtn": "Upload Images",
+    "activityImageUploadDescription": "Upload an image of your property for the cover page",
+    "activityImageUploadDescription1": "Upload additional images of for better view",
+
+    "activityImageUploadStatus": "No Image imported",
+    "activityImageDelete": "Delete all images",
+
+
+    "activitySaveAndPost": "Save & post",
+    "activitySave": "Save",
+
 
 
 
@@ -80,11 +239,113 @@
     "serviceSecondSectionCardContext6": "Landlords/agents have access to a centralized dashboard where they can easily manage their property listings, including adding, editing, or removing listings as needed.",
 
     "serviceSecondSectionCardTitle7": "Notification Alerts",
-    "serviceSecondSectionCardContext7": "Landlords/agents receive instant notifications for new inquiries, viewing requests, or other relevant updates, ensuring timely responses and proactive engagement with clients."
+    "serviceSecondSectionCardContext7": "Landlords/agents receive instant notifications for new inquiries, viewing requests, or other relevant updates, ensuring timely responses and proactive engagement with clients.",
 
 
 
 
+
+    "Solution Page" : "SOLUTION PAGE ...........................................................",
+
+    "soltionSectionOneTitle1" : "Our Solution",
+    "soltionSectionOneTitle2" : "Committed to excellent",
+    "soltionSectionOneDescription" : "Our innovative platforms combine advanced technology with user-friendly interfaces to provide a seamless and efficient experience. From finding your dream home to managing rental properties with ease, Rentopia is your ultimate destination for all things real estate.",
+    "soltionSectionOneBtn" : "View Listing",
+
+    "soltionSectionTwoTitle2" : "Mobile Platforms for Visitors",
+    "soltionSectionTwoDescription" : "Discover your dream property anytime, anywhere with Rentopia's mobile platforms. Our user-friendly mobile app and optimized website ensure that you can browse listings, schedule viewings, and connect with landlords or agents on the go. With intuitive search features and personalized recommendations, finding the perfect property has never been easier.",
+    "soltionSectionTwoBtn" : "Get the app",
+
+    "soltionSectionThreeTitle2" : "Platforms for Agents and Rental Managers",
+    "soltionSectionThreeDescription" : "For landlords, agencies, and real estate agents, Rentopia offers specialized platforms to streamline property management and listings. Our comprehensive dashboard provides access to essential tools for listing management, tenant screening, rent collection, and more. With Rentopia, you can maximize your property's exposure, attract qualified tenants, and manage rentals efficiently, all from one centralized platform.",
+    "soltionSectionThreeBtn" : "Get started",
+
+    "soltionSectionFourTitle2" : "Your Gateway to Dream Spaces",
+    "soltionSectionFourDescription1" : "Our platform is designed to empower both property seekers and providers, offering a convenient",
+    "soltionSectionFourDescription2" : " and efficient way to explore listings and connect with potential tenants or buyers. Don't",
+    "soltionSectionFourDescription3" : " miss out on the opportunity to find your dream space or connect with qualified",
+    "soltionSectionFourDescription4" : " tenants and buyers. Embark on your journey towards the perfect property match. Your dream",
+    "soltionSectionFourDescription5" : " space awaits !",
+
+    "soltionSectionFourBtn" : "Expore properties",
+
+
+
+    "Auth Page" : "AUTH PAGE ...........................................................",
+
+    "authTitle" : "Sign Up to Rentopia",
+    "authClientTitle": "As a client",
+    "authClientDescription": "Find your dream home effortlessly. Sign up now to browse our exclusive real estate listings !",
+    "authOwnerTitle": "As an owner",
+    "authOwnerDescription": "Unlock the potential of your property. Sign up now to showcase your listings effectively!",
+    "authBtn": "Let's Go",
+    "authLogNotice": "Already have an account ?",
+    "authLogbtn": "Login",
+
+
+
+    "signup Page" : "SIGN UP PAGE ...........................................................",
+
+    "signUpTitle" : "Hey there !",
+    "signUpDescription" : "Ease into your dream property with our solution.",
+    "signUpGoogleBtn" : "Sign Up with Google",
+    "signUpOr" : "Or",
+    "signUpInputextPlaceholder" : "Enter your email",
+    "signUpInputextNotice" : "A verification code will be send via this email",
+    "signUpBtn" : "Verify",
+    "signUpDownNotice": "Already have an account ?",
+    "signUpLogbtn": "Login",
+
+
+    "LogIn Page" : "LogIn PAGE ...........................................................",
+
+    "LogInTitle" : "Welcome back !",
+    "LogInDescription" : "Resume your research journey with ease using our solution.",
+    "LogInGoogleBtn" : "LogIn with Google",
+    "LogInOr" : "Or",
+    "LogInInputextPlaceholder" : "Enter your email",
+    "LogInBtn" : "Verify",
+    "LogInDownNotice": "Don't have an account ?",
+    "LogInLogbtn": "Sign In",
+
+
+
+    "Maintainance page" : "MAINTAINANCE PAGE ...........................................................",
+
+    "maintainTitle" : "Oops... site under maintenance",
+    "maintainDescription" : "Sorry for the inconvenience, we're almost done.",
+    "maintainBtn" : "Turn Home",
+
+
+    "Not Found page" : "NOT FOUND PAGE ...........................................................",
+
+    "notFoundTitle" : "Page not found",
+    "notFoundDescription" : "The page you requested was not found.",
+    "notFoundBtn" : "Turn Home",
+
+
+
+
+    "Footer page" : "FOOTER PAGE ...........................................................",
+
+    "footerFirstColonDescription": "We prioritize digital accessibility, value feedback, and welcome accommodation requests. Contact us for assistance.",
+    "footerFirstColonAbout": "About Us",
+    "footerSecondSectionTitle" : "Find Property",
+    "footerSecondSectionOption1" : "Apartments",
+    "footerSecondSectionOption2" : "Commercial building",
+    "footerSecondSectionOption3" : "Single-family home",
+    "footerSecondSectionOption4" : "Retail store",
+
+    "footerThirdSectionTitle" : "Functionalities",
+    "footerThirdSectionOption1" : "Buy a property",
+    "footerThirdSectionOption2" : "Rent a propery",
+    "footerThirdSectionOption3" : "Sell a property",
+
+    "footerFourthSectionTitle" : "About Us",
+    "footerFourthSectionOption1" : "Company Info",
+    "footerFourthSectionOption2" : "Term of service",
+    "footerFourthSectionOption3" : "Privacy Notice",
+    "footerFourthSectionOption4" : "Blog"
 
 
 

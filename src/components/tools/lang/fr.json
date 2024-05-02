@@ -1,5 +1,10 @@
 {
+
+    "lang": "FR",
+
     "page": "HEADER ...............................................................",
+
+
     "title1": "Propriétés",
     "title2": "Activités",
     "title3": "Services",
@@ -12,6 +17,10 @@
     "headerFr": "Français (FR)",
 
 
+
+
+
+
     "Page" : "HOME PAGE ...........................................................",
 
 
@@ -20,6 +29,45 @@
     "homeFirstSectionContent": "Simplifier le processus d'identification et d'acquisition de votre propriété idéale",
     "homeFirstSectionInputPlaceholder" : "Saisir le nom d'une ville",
     "homeFirstSectionbtn" : "Recherche",
+
+
+    "homeResidenceProperties": "Propriétés résidentielles",
+    "homeResidencePropertiesOption1": "Maisons unifamiliales",
+    "homeResidencePropertiesOption2": "Condominiums",
+    "homeResidencePropertiesOption3": "Appartements",
+    "homeResidencePropertiesOption4": "Maisons de ville",
+    "homeResidencePropertiesOption5": "Duplex",
+    "homeResidencePropertiesOption6": "Mobil-homes",
+
+    "homeCommercialProperties": "Propriétés commerciales",
+    "homeCommercialPropertiesOption1": "Immeubles de bureaux",
+    "homeCommercialPropertiesOption2": "Magasins de détail",
+    "homeCommercialPropertiesOption3": "Entrepôts",
+    "homeCommercialPropertiesOption4": "Propriétés industrielles",
+    "homeCommercialPropertiesOption5": "Hôtels",
+    "homeCommercialPropertiesOption6": "Restaurants",
+    "homeCommercialPropertiesOption7": "Immeubles à usage mixte",
+
+    "homeLuxuryProperties": "Propriétés de luxe",
+    "homeLuxuryPropertiesOption1": "Maisons haut de gamme",
+    "homeLuxuryPropertiesOption2": "Condos de luxe",
+    "homeLuxuryPropertiesOption3": "Manoirs",
+    "homeLuxuryPropertiesOption4": "Appartements de standing",
+
+    "homeIndustrialProperties": "Propriétés industrielles",
+    "homeIndustrialPropertiesOption1": "Installations de fabrication",
+    "homeIndustrialPropertiesOption2": "Centres de distribution",
+    "homeIndustrialPropertiesOption3": "Usines",
+    "homeIndustrialPropertiesOption4": "Parcs industriels",
+
+    "homeSpecialProperties": "Propriétés à usage spécial",
+    "homeSpecialPropertiesOption1": "Hôpitaux",
+    "homeSpecialPropertiesOption2": "Écoles",
+    "homeSpecialPropertiesOption3": "Églises",
+    "homeSpecialPropertiesOption4": "Stades de sport",
+    "homeSpecialPropertiesOption5": "Aéroports",
+    "homeSpecialPropertiesOption6": "Parkings",
+
 
     "homeSecondSectionTitle1" : "Efficience",
     "homeSecondSectionTitle2" : "Réduire le temps et les efforts nécessaires à la recherche d'un nouveau logement",
@@ -48,7 +96,133 @@
     "homeThirdSectionCardTitle3" : "Vendre un bien",
     "homeThirdSectionCardContent3" : "Soyez assuré que, quelle que soit la voie que vous choisissez pour vendre votre maison, notre équipe dévouée est là pour vous offrir des conseils et un soutien pour une vente vraiment réussie et gratifiante.",
     "homeThirdSectionCardbtn3" : "Vendre un bien",
-    
+
+
+
+
+
+
+
+    "Activity Page one" : "ACTIVITIES PAGE ONE..................................................",
+
+    "activityLeftSideTitle" : "Louer une propriété",
+    "activityLeftSideDescription" : "Que vous ayez un appartement ou une salle de fête à louer, Rentopia est là pour vous aider à mettre en valeur votre bien et à attirer des locataires potentiels.",
+
+
+    "activityRightSideTitle" : "Vendre une propriété",
+    "activityRightSideDescription" : "Rentopia simplifie la vente de biens immobiliers et l'attraction de clients. Détendez-vous, notre algorithme avancé s'occupe du reste. Nous sommes là pour vous aider.",
+    "activityActionBtn" : "Allons-y",
+
+
+
+    "Activity Page two" : "ACTIVITIES PAGE TWO..................................................",
+
+    "activityTitle": "Remplissez ce formulaire",
+    "actityDescription": "Votre liste transparente et détaillée contribue à un processus simplifié et efficace de mise en relation avec des locataires potentiels.",
+
+    "activityInputType1" : "Choisir le type",
+    "activityInputType2" : "A louer",
+    "activityInputType3" : "A vendre",
+    "activityInputTypeDecription" : "Quelle est l'origine de ce bien ?",
+
+    "activityInfo1" : "Veuillez fournir les informations demandées sur le bien pour que le processus de location se déroule sans encombre",
+    "activityInputProperty1" : "Sélectionnez une propriété",
+    "activityInputProperty2" : "Appartement",
+    "activityInputProperty3" : "Maison",
+    "activityInputProperty4" : "Bureau",
+    "activityInputProperty5" : "Surface commerciale",
+    "activityInputProperty6" : "Entrepôt",
+    "activityInputProperty7" : "Salle des fêtes",
+    "activityInputProperty8" : "Salle de conférence",
+    "activityInputProperty9" : "Salle de banquet",
+    "activityInputProperty10" : "Maison de vacances",
+    "activityInputProperty11" : "Cabine ou chalet",
+    "activityInputProperty12" : "Place de parking",
+    "activityInputProperty13" : "Unité de stockage",
+    "activityInputProperty14" : "Terrain agricole",
+    "activityInputProperty15" : "Appartement d'étudiant",
+    "activityInputProperty16" : "Logement partagé",
+    "activityInputProperty17" : "Appartement avec assistance",
+    "activityInputProperty18" : "Retirement Communitie",
+
+    "activityInputPropertyName" : "Nom de la propriété ( s'il y en a une)",
+    "activityInputPropertyDecription" : "Description du bien",
+    "activityInputPropertyAddress" : "Quelle est l'adresse du bien ?",
+    "activityInputPropertyAddressDecription" : "Ex : city - reigon",
+
+    "activityInputPropertyPhone" : "Numéro de téléphone",
+    "activityInputPropertyPhoneDecription" : "Pour que les gens puissent vous rejoindre",
+
+    "activityInputPropertyPrice1" : "Prix de la propriété",
+    "activityInputPropertyVaryValue" : "Varier par...",
+    "activityInputPropertyVaryModalTitle" : "Le prix varie en fonction de ?",
+    "activityInputPropertyVaryModalDecription" : "Ex : 12,000 CFA/ 3 semaines-- ou --20,000 CFA/Mois",
+    "activityInputPropertyVaryMoadlMin" : "Prix Min",
+    "activityInputPropertyVaryModalCondition1" : "Par...",
+    "activityInputPropertyVaryModalCondition2" : "Minutes",
+    "activityInputPropertyVaryModalCondition3" : " Heure ",
+    "activityInputPropertyVaryModalCondition4" : " Semaine ", 
+    "activityInputPropertyVaryModalCondition5" : " Mois ",
+    "activityInputPropertyVaryModalCondition6" : " Année ",
+    "activityInputPropertyVaryMoadlBtn" : "Appliquer",
+
+    "activityInputPriceType1" : "Prix",
+    "activityInputPriceType2" : "Fixe",
+    "activityInputPriceType3" : "Négociable",
+
+    "activityInputLeases" : "Bail à terme",
+    "activityInputLeasesModalTitle": "Établit une période de temps",
+    "activityInputLeasesModalSubtitle": "Pas besoin de remplir s'il n'y a pas de période de temps",
+    "activityInputLeasesModalButtonText": "Appliquer",
+    "activityInputLeasesModalLeaseTime1": "Semaine",
+    "activityInputLeasesModalLeaseTime2": "Mois",
+    "activityInputLeasesModalLeaseTime3": "Année",
+
+
+    "activityInputLeasesModalPlaceholders": "numéro",
+    "activityInputLeasesDecription" : "Définir la période de temps pendant laquelle un contrat de location est en vigueur",
+
+    "activityInfo2": "Spécifiez les pièces de la propriété en remplissant les informations ci-dessous.",
+    "activityTagDescription": "Spécifiez les pièces principales et les quantités pour une compréhension détaillée de la propriété.",
+    "activityInputTagPlaceholder": "quantité",
+    "activityTagError": "Remplissez les deux champs de texte pour continuer",
+    "activityTagInputRoom1": "Pièce(s)",
+    "activityTagInputRoom2": "Salon",
+    "activityTagInputRoom3": "Cuisine",
+    "activityTagInputRoom4": "Salle à manger",
+    "activityTagInputRoom5": "Chambre(s)",
+    "activityTagInputRoom6": "Salle de bain(s)",
+    "activityTagInputRoom7": "Bureau à domicile / Salle d'étude",
+    "activityTagInputRoom8": "Buanderie",
+    "activityTagInputRoom9": "Salle de sport à domicile",
+    "activityTagInputRoom10": "Salle de jeux",
+    "activityTagInputRoom11": "Vestiaire",
+    "activityTagInputRoom12": "Bar à domicile",
+    "activityTagInputRoom13": "Salle de jeux",
+    "activityTagInputRoom14": "Cellier",
+    "activityTagInputRoom15": "Garage(2)",
+    "activityTagstatus": "Aucune pièce ajoutée",
+
+
+    "activityAddRoomBtn": "Ajouter",
+
+    "activityInfo3": "Maximisez la demande, téléchargez des images de propriété pour une meilleure visualisation et appréciation.",
+    "activityImageUploadBtn": "importer une image",
+    "activityImagesUploadBtn": "importer des images",
+    "activityImageUploadDescription": "Téléchargez une image de votre propriété pour la page de couverture",
+    "activityImageUploadDescription1": "Téléchargez des images supplémentaires pour une meilleure vue",
+  
+    "activityImageUploadStatus": "Aucune image importée",
+    "activityImageDelete" : "Supprimer toutes les images",
+
+  
+    "activitySaveAndPost": "Enregistrer et publier",
+    "activitySave": "Enregistrer",
+
+
+
+
+
 
 
 
@@ -79,5 +253,134 @@
     "serviceSecondSectionCardContext6": "Les propriétaires/agents ont accès à un tableau de bord centralisé où ils peuvent facilement gérer leurs annonces immobilières, y compris l'ajout, la modification ou la suppression d'annonces selon les besoins.",
 
     "serviceSecondSectionCardTitle7": "Notification d'alertes",
-    "serviceSecondSectionCardContext7": "Les propriétaires/agents reçoivent des notifications instantanées pour les nouvelles demandes, les demandes de visite ou d'autres mises à jour pertinentes, ce qui garantit des réponses rapides et un engagement proactif avec les clients."
+    "serviceSecondSectionCardContext7": "Les propriétaires/agents reçoivent des notifications instantanées pour les nouvelles demandes, les demandes de visite ou d'autres mises à jour pertinentes, ce qui garantit des réponses rapides et un engagement proactif avec les clients.",
+
+
+
+
+
+
+
+
+
+    "Solution Page" : "SOLUTION PAGE ...........................................................",
+
+    "soltionSectionOneTitle1": "Notre Solution",
+    "soltionSectionOneTitle2": "Engagé à l'excellence",
+    "soltionSectionOneDescription": "Nos plateformes innovantes combinent une technologie avancée avec des interfaces conviviales pour offrir une expérience fluide et efficace. De la recherche de votre maison de rêve à la gestion facile des propriétés locatives, Rentopia est votre destination ultime pour tout ce qui concerne l'immobilier.",
+    "soltionSectionOneBtn": "Voir les annonces",
+
+    "soltionSectionTwoTitle2": "Plateformes mobiles pour les visiteurs",
+    "soltionSectionTwoDescription": "Découvrez votre propriété de rêve n'importe où, n'importe quand avec les plateformes mobiles de Rentopia. Notre application mobile conviviale et notre site web optimisé garantissent que vous pouvez parcourir les annonces, planifier des visites et vous connecter avec des propriétaires ou des agents en déplacement. Avec des fonctionnalités de recherche intuitives et des recommandations personnalisées, trouver la propriété parfaite n'a jamais été aussi facile.",
+    "soltionSectionTwoBtn": "Obtenir l'application",
+
+    "soltionSectionThreeTitle2": "Plateformes pour les agents et gestionnaires locatifs",
+    "soltionSectionThreeDescription": "Pour les propriétaires, les agences et les agents immobiliers, Rentopia propose des plateformes spécialisées pour rationaliser la gestion et les annonces de propriétés. Notre tableau de bord complet offre un accès aux outils essentiels pour la gestion des annonces, le dépistage des locataires, la collecte des loyers, et plus encore. Avec Rentopia, vous pouvez maximiser l'exposition de votre propriété, attirer des locataires qualifiés et gérer les locations efficacement, le tout à partir d'une plateforme centralisée.",
+    "soltionSectionThreeBtn": "Commencer",
+
+    "soltionSectionFourTitle2": "Votre Passage vers des Espaces de Rêve",
+    "soltionSectionFourDescription1": "Notre plateforme est conçue pour autonomiser à la fois les chercheurs de propriétés et les fournisseurs, offrant un moyen pratique",
+    "soltionSectionFourDescription2": " et efficace d'explorer les annonces et de se connecter avec des locataires ou des acheteurs potentiels. Ne",
+    "soltionSectionFourDescription3": " manquez pas l'opportunité de trouver votre espace de rêve ou de vous connecter avec des",
+    "soltionSectionFourDescription4": " locataires et acheteurs qualifiés. Lancez-vous dans votre parcours vers la correspondance",
+    "soltionSectionFourDescription5": " parfaite avec la propriété. Votre espace de rêve vous attend !",
+    "soltionSectionFourBtn": "Explorer les propriétés",
+
+
+
+
+
+
+
+    "Auth Page" : "AUTH PAGE ...........................................................",
+
+    "authTitle" : "Inscrivez-vous sur Rentopia",
+    "authClientTitle": "En tant que client",
+    "authClientDescription": "Trouvez votre maison de rêve sans effort. Inscrivez-vous dès maintenant pour parcourir nos annonces immobilières exclusives !",
+    "authOwnerTitle": "En tant que propriétaire",
+    "authOwnerDescription": "Débloquez le potentiel de votre propriété. Inscrivez-vous dès maintenant pour présenter efficacement vos annonces !",
+    "authBtn": "Allons-y",
+    "authLogNotice": "Vous avez déjà un compte ?",
+    "authLogbtn": "Connexion",
+
+
+
+
+
+    "signup Page" : "SIGN UP PAGE ...........................................................",
+
+    "signUpTitle" : "Bonjour à vous !",
+    "signUpDescription" : "Accédez facilement à la propriété de vos rêves avec notre solution.",
+    "signUpGoogleBtn" : "S'inscrire avec Google",
+    "signUpOr" : "Ou",
+    "signUpInputextPlaceholder" : "Entrez votre e-mail",
+    "signUpInputextNotice" : "Un code de vérification sera envoyé via cet e-mail",
+    "signUpBtn" : "Vérifier",
+    "signUpDownNotice": "Vous avez déjà un compte ?",
+    "signUpLogbtn": "Connexion",
+
+
+
+
+
+
+
+    "LogIn Page" : "LogIn PAGE ...........................................................",
+
+    "LogInTitle" : "Bon retour !",
+    "LogInDescription" : "Reprenez facilement votre parcours de recherche avec notre solution.",
+    "LogInGoogleBtn" : "Connexion avec Google",
+    "LogInOr" : "Ou",
+    "LogInInputextPlaceholder" : "Entrez votre e-mail",
+    "LogInBtn" : "Vérifier",
+    "LogInDownNotice": "Vous n'avez pas de compte ?",
+    "LogInSignUpbtn": "S'inscrire",
+
+
+
+
+
+    "Maintainance page" : "MAINTAINANCE PAGE ...........................................................",
+    "maintainTitle" : "Oups... site en maintenance",
+    "maintainDescription" : "Désolé pour le désagrément, nous avons presque terminé.",
+    "maintainBtn" : "Retour à l'accueil",
+
+
+
+
+
+    "Not Found page" : "NOT FOUND PAGE ...........................................................",
+
+    "notFoundTitle" : "Page non trouvée",
+    "notFoundDescription" : "La page que vous avez demandée n'a pas été trouvée.",
+    "notFoundBtn" : "Retour à l'accueil",
+
+
+
+
+    
+
+    "Footer page" : "FOOTER PAGE ...........................................................",
+
+    "footerFirstColonDescription": "Nous accordons une priorité à l'accessibilité numérique, apprécions les retours d'expérience et accueillons les demandes d'adaptation. Contactez-nous pour obtenir de l'aide.",
+    "footerFirstColonAbout": "À Propos",
+    "footerSecondSectionTitle" : "Trouver un bien",
+    "footerSecondSectionOption1" : "Appartements",
+    "footerSecondSectionOption2" : "Bâtiment commercial",
+    "footerSecondSectionOption3" : "Maison individuelle",
+    "footerSecondSectionOption4" : "Magasin de détail",
+
+    "footerThirdSectionTitle" : "Fonctionnalités",
+    "footerThirdSectionOption1" : "Acheter un bien",
+    "footerThirdSectionOption2" : "Louer un bien",
+    "footerThirdSectionOption3" : "Vendre un bien",
+
+    "footerFourthSectionTitle" : "À Propos",
+    "footerFourthSectionOption1" : "À Propos de Nous",
+    "footerFourthSectionOption2" : "Conditions d'utilisation",
+    "footerFourthSectionOption3" : "Avis de confidentialité",
+    "footerFourthSectionOption4" : "Blog"
+
+
+
   }
