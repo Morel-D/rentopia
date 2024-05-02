@@ -25,6 +25,10 @@
     "homeFirstSectionInputPlaceholder" : "Enter a city name",
     "homeFirstSectionbtn" : "Search",
 
+
+    "homePropertyTitle": "Properties",
+    "homePropertyDescription": "Identify the properties available",
+
     "homeResidenceProperties": "Resdential properties",
     "homeResidencePropertiesOption1": "Single-family homes",
     "homeResidencePropertiesOption2": "Condominiums",

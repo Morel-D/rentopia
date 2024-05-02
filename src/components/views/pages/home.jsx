@@ -29,13 +29,13 @@ import 'aos/dist/aos.css';
 const Home = ({translation}) => {
 
     const [drop, setDrop] = useState({});
-    const [boxHeight, setBoxHeight] = useState(window.innerWidth < 450 ? "10px" : "250px")
+    const [boxHeight, setBoxHeight] = useState(window.innerWidth < 450 ? "220px" : "250px")
 
     useEffect(() => {
         AOS.init({duration: 2000});
 
         const handleResize = () => {
-            setBoxHeight(window.innerWidth < 450 ? "10px" : "250px");
+            setBoxHeight(window.innerWidth < 450 ? "200px" : "250px");
         };
 
         window.addEventListener('resize', handleResize);
@@ -161,14 +161,14 @@ const Home = ({translation}) => {
 
             <div className="container-fluid py-5 bg-white">
                 <div className="container">
-                    <p className="text-highline text-start">Properties</p>
-                    <div className="conatiner-fluid mb-5"><h1 className="text-dark"  data-aos="fade-left"><b>Identify the properties available</b></h1></div>
+                    <p className="text-highline text-start">{translation.homePropertyTitle}</p>
+                    <div className="conatiner-fluid mb-5"><h1 className="text-dark"  data-aos="fade-left"><b>{translation.homePropertyDescription}</b></h1></div>
                     <div className="row row-cols-lg-5 row-cols-2" data-aos="fade-up">
                          {
                             properties.map((property) => (
                                 <div className="col py-2" key={property.id}>
                                     <div class="shadow-sm p-3 bg-body rounded" id="propertyBox" style={drop[property.id] ?  null : {height: boxHeight}}>
-                                        <img src={property.image} className="img-fluid px-lg-5 px-3 mt-lg-0 mt-3" />
+                                        <img src={property.image} className="img-fluid px-lg-5 px-4 mt-lg-0 mt-3" />
                                         <p className="text-dark text-center fw-bold">{property.title}</p>
                                         <div className={drop[property.id] ? "dropdowm text-center" : "dropdowm d-none text-center" }>
                                             {property.types.map((type) =>
@@ -207,7 +207,7 @@ const Home = ({translation}) => {
 
                     </div>
                     {/* <hr />/ */}
-                    <div className="row d-flex justify-content-center py-1 py-lg-5 px-5">
+                    <div className="row d-flex justify-content-center py-1 py-lg-5 px-3">
                         <div className="col text-center" data-aos="fade-up" data-aos-duration="1000">
                             <img src={time} className="img-fluid logoWiget"/>
                             <h5 className="text-highline ">{translation.homeSecondSectionCard1}</h5>
@@ -226,7 +226,7 @@ const Home = ({translation}) => {
 
 
 
-            <div className="conatiner-fluid py-5">
+            <div className="container-fluid py-5">
                 <br /><br />
                 <div className="container">
                     <div className="row">

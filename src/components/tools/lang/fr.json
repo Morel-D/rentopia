@@ -30,6 +30,9 @@
     "homeFirstSectionInputPlaceholder" : "Saisir le nom d'une ville",
     "homeFirstSectionbtn" : "Recherche",
 
+    "homePropertyTitle": "Propriétés",
+    "homePropertyDescription": "Identifier les propriétés disponibles",
+
 
     "homeResidenceProperties": "Propriétés résidentielles",
     "homeResidencePropertiesOption1": "Maisons unifamiliales",
